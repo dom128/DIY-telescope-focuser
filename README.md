@@ -7,7 +7,7 @@ Hardware:
 
 The custom INDI driver and focuser control software is based on:
 - INDI indi-gpio_pwm_focus driver https://github.com/sywong2000/indi-gpio_pwm_focus
-- Low-level GPIO library bcm2835 library https://www.airspayce.com/mikem/bcm2835/
+- Low-level GPIO library bcm2835 https://www.airspayce.com/mikem/bcm2835/
 - Arduino Stepper motor library https://github.com/arduino-libraries/Stepper
 - Raspberry Pi adapted implementation of Arduino stepper motor library https://github.com/abewieland/RPI-Stepper
 
