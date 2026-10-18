@@ -1,0 +1,3 @@
+[submodule "indi-gpio_drv8833_focus"]
+	path = indi-gpio_drv8833_focus
+	url = https://github.com/dom128/indi-gpio_drv8833_focus
