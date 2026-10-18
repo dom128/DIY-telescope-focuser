@@ -1,2 +1,12 @@
 # development files not to be tracked
 /ignore/
+
+# Local editor
+*.code-workspace
+/.vscode/
+
+# CMake
+/indi-gpio_drv8833_focus/Makefile
+/indi-gpio_drv8833_focus/config.h
+/indi-gpio_drv8833_focus/indi_gpio_drv8833_focus.xml
+/indi-gpio_drv8833_focus/indi_gpio_drv8833_focus
