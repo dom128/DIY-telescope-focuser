@@ -4,17 +4,3 @@
 # Local editor
 *.code-workspace
 /.vscode/
-
-# Compilation files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-install_manifest.txt
-
-/indi-gpio_drv8833_focus/Makefile
-/indi-gpio_drv8833_focus/config.h
-/indi-gpio_drv8833_focus/indi_gpio_drv8833_focus.xml
-/indi-gpio_drv8833_focus/indi_gpio_drv8833_focus
-
-*.o
-*.obj
