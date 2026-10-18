@@ -12,8 +12,8 @@ The custom INDI driver and focuser control software is based on:
 - Arduino Stepper motor library https://github.com/arduino-libraries/Stepper
 - Raspberry Pi adapted implementation of Arduino stepper motor library https://github.com/abewieland/RPI-Stepper
 
-The focuser in action:
-![pingpong.gif](pingpong.gif)
-
 Custom Raspberry Pi 4 "RASAberry OmegaHAT" hat carrying the Adafruit DRV8833 motor driver:
 ![IMG_2951.jpeg](IMG_2951.jpeg)
+
+The focuser in action:
+![pingpong.gif](pingpong.gif)
