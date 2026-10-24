@@ -12,14 +12,34 @@ The custom INDI driver and focuser control software is based on:
 - Raspberry Pi adapted implementation of Arduino stepper motor library https://github.com/abewieland/RPI-Stepper
 
 Custom Raspberry Pi 4 (Model B Rev 1.5) "RASAberry OmegaHAT" hat carrying the Adafruit DRV8833 motor driver:
-![IMG_2951.jpeg](images/IMG_2951.jpeg)
+![images/IMG_2951.jpeg](images/IMG_2951.jpeg)
 
 User interface - INDI control panel:
-![screenshot-indi-control-panel.png](images/screenshot-indi-control-panel.png)
+![images/screenshot-indi-control-panel.png](images/screenshot-indi-control-panel.png)
 
 The focuser in action:\
-![pingpong.gif](images/pingpong.gif)
+![images/pingpong.gif](images/pingpong.gif)
 
 ## Getting started
 
 To build and install the `indi-gpio_drv8833_focus` driver, please follow the instructions under [INDI driver README.md](https://github.com/dom128/indi-gpio_drv8833_focus/blob/main/README.md)
+
+## DIY Hardware setup
+
+### Shopping list
+
+PCB assembly:
+- 2x20 female GPIO pin header for Raspberry Pi
+- Adafruit DRV8833 Motor Driver Breakout PCB
+- RJ12 6p6c modular jack (or RJ11 6P4C) matching the PCB footprint
+- (optional) Adafruit Sensirion SHT31-D Temperature & Humidity Sensor PCB
+
+Stepper motor and cabling:
+- RJ12 6p6c telephone cord
+- Adafruit Mini Stepper Motor
+
+### PCB layout
+
+The correct pin-out and wiring is schematized in [fabrication/schematic.pdf](fabrication/schematic.pdf). Ideally, one uses an open ended (one-sided) RJ12 telephone cord to connect the hat with the stepper motor via the RJ12 jack. Make sure that the cable connects the driver pins (*AOUT1*, *AOUT2*, *BOUT1*, and *BOUT2*) to the stepper motor correctly (see stepper motor and DRV8833 documentation).
+
+![fabrication/layout.png](fabrication/layout.png)
