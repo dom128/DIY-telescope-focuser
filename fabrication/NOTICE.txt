@@ -1,7 +1,7 @@
 OmegaHAT - Credits and references
 =================================
 
-Carrier-board layout and custom DRV8833/SHT31 module footprints: dom128.
+Original carrier-board contributions and module-footprint work: dom128.
 Fabrication files: CC-BY-SA-3.0; see LICENSE.
 
 
@@ -18,10 +18,19 @@ KiCad data is licensed under CC-BY-SA-4.0 with the KiCad design exception:
 https://www.kicad.org/libraries/license/
 
 
-Breakout-board references
-------------------------
+Adafruit breakout-board interfaces
+----------------------------------
 
-Analogous Adafruit designs for recreating the module interfaces:
+The module footprints correspond to the interfaces of the Adafruit
+breakout designs below. Those designs are licensed under Creative Commons
+Attribution-ShareAlike 3.0 Unported (CC-BY-SA-3.0).
+
+Any incorporated Adafruit design material has been adapted into simplified
+module footprints for this carrier PCB, with project-specific pad numbering
+and outline geometry. Such material and its modifications remain available
+under CC-BY-SA-3.0; see LICENSE for the complete licence text.
+
+The upstream README notices are preserved in ADAFRUIT-NOTICES.txt.
 
 Adafruit DRV8833 Motor Driver Breakout - Adafruit Industries.
 https://github.com/adafruit/Adafruit-DRV8833-Motor-Driver-Breakout-PCB
