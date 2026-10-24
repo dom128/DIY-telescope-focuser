@@ -24,7 +24,7 @@ The focuser in action:\
 
 To build and install the `indi-gpio_drv8833_focus` driver, please follow the instructions under [INDI driver README.md](https://github.com/dom128/indi-gpio_drv8833_focus/blob/main/README.md)
 
-## DIY Hardware setup
+## DIY hardware setup
 
 ### Shopping list
 
