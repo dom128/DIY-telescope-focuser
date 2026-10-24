@@ -6,6 +6,13 @@ texts are provided in indi-gpio_drv8833_focus/LICENSE.
 
 https://github.com/dom128/indi-gpio_drv8833_focus/blob/main/LICENSE
 
-No additional licence is granted here for the parent repository's
-documentation, photographs, videos or hardware/PCB designs.
-Any existing or separately stated licence terms remain applicable.
+
+The hardware fabrication (PCB design) files in the fabrication/ directory
+are licensed separately from the repository's own material.
+See fabrication/LICENSE and
+fabrication/NOTICE.txt for the applicable licence
+grant, third-party terms and attribution.
+
+Online:
+https://github.com/dom128/DIY-telescope-focuser/blob/main/fabrication/LICENSE
+https://github.com/dom128/DIY-telescope-focuser/blob/main/fabrication/NOTICE.txt

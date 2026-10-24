@@ -1,0 +1,31 @@
+OmegaHAT - Credits and references
+=================================
+
+Carrier-board layout and custom DRV8833/SHT31 module footprints: dom128.
+Fabrication files: CC-BY-SA-3.0; see LICENSE.
+
+
+KiCad template and libraries
+---------------------------
+
+Base template: raspberrypi-gpio-40pin.
+Copyright (c) 2016 Ashton Johnson and KiCad Developers.
+Standard symbols and footprints: KiCad community.
+
+https://github.com/KiCad/kicad-templates/tree/5.1.7/Projects/raspberrypi-gpio-40pin
+
+KiCad data is licensed under CC-BY-SA-4.0 with the KiCad design exception:
+https://www.kicad.org/libraries/license/
+
+
+Breakout-board references
+------------------------
+
+Analogous Adafruit designs for recreating the module interfaces:
+
+Adafruit DRV8833 Motor Driver Breakout - Adafruit Industries.
+https://github.com/adafruit/Adafruit-DRV8833-Motor-Driver-Breakout-PCB
+
+Adafruit SHT31 Sensor Breakout (legacy board) - Limor Fried/Ladyada
+for Adafruit Industries.
+https://github.com/adafruit/Adafruit-SHT31-Sensor-Breakout-PCB
